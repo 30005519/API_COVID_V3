@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Informação COVID-19</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+    />
+
+
+    <link rel="shortcut icon" href="images/Covid.ico" />
+
+     <!-- Bootstrap CSS -->
+     <link
+     rel="stylesheet"
+     href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css"
+   />
+   <div
+   class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+   style="background-image: url('images/covid\ lilas.jpeg'); "
+   
+ >
+
+</head>
+
+<body>
+
+    <figure class="text-center">
+        <blockquote class="blockquote">
+          <h1>COVID-19 - Situação actual</H1>
+        </blockquote>
+
+        
+        <!--br dá espaçamento entre paragrafos-->
+        
+       
+        <figcaption class="blockquote-footer">
+        <h4><strong> Vacine-se! Pela sua saúde e dos seus.</cite></strong></h4>
+        </figcaption>
+      </figure>
+
+
+    <div class="btn-group"></a>
+        <label class="btn btn-info" for="btnradio1">
+        <input type="radio"  name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <a href="https://covid19.min-saude.pt/ponto-de-situacao-atual-em-portugal/">Ponto de Situação actual em Portugal</label>
+    </div>
+
+    <div >  
+      <label class="btn btn-info" for="btnradio2">
+      <input type="radio" class="btn btn-primary" name="btnradio2" id="btnradio2" onclick="getArticles()" autocomplete="off">
+      <onclick="</getArticles>Noticias ao minuto</label>
+    </div>
+
+
+</body>
+
+<div id="articles" class="text-center"></div>
+
+
+
+<script src="js/api.js"></script>
+
+
+</html>

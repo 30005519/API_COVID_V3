@@ -1,0 +1,22 @@
+#btnLogoff {
+    display: none;
+}
+
+h4 {
+    color: rgb(247, 240, 240, .9);
+    font-style: italic;
+
+  }
+  
+
+  btn-group {
+    
+  background-color: #d67faf94;
+  border:  #2d30e6;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+
+  }
